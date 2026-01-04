@@ -1,4 +1,4 @@
-# azure-siem-honeypot-lab
+# Azure Honeypot Lab
 Cloud-based SOC lab built using Azure, a Windows honeypot VM, Log Analytics Workspace, and Microsoft Sentinel to observe and analyze real-world attack activity and visualize attacker locations on an attack map.
 # Azure Honeypot + Microsoft Sentinel (Mini SOC Lab)
 
