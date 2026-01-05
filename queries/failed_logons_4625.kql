@@ -1,1 +1,7 @@
+// Detect failed Windows logon attempts
+// Event ID 4625 indicates a failed authentication
 
+SecurityEvent
+| where EventID == 4625
+| project TimeGenerated, Account, Computer, IpAddress, Activity
+| order by TimeGenerated desc
