@@ -38,3 +38,6 @@ Public Internet → NSG → Windows VM (Honeypot) → Log Analytics Workspace �
 - Create Microsoft Sentinel analytics rules to automatically detect brute-force behavior
 - Generate incidents and alerts based on suspicious activity and known patterns
 - Apply post-incident hardening (restrict NSG rules, enable firewall, limit RDP access)
+
+---
+Detailed explanation: [DETAILED-WALKTHROUGH.md](/DETAILED-WALKTHROUGH.md)
