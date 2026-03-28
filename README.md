@@ -27,17 +27,5 @@ Public Internet → NSG → Windows VM (Honeypot) → Log Analytics Workspace �
 - Enriched attacker IP addresses with geographic data 
 - Built an attack map (interactive world map showing attacker locations)
 
-## Screenshots
-
-<img width="1313" height="871" alt="Raw Logs 4" src="https://github.com/user-attachments/assets/bc7c2936-fe1f-445a-9687-85204c48da01" />
-<img width="1919" height="860" alt="Log Analytics 10" src="https://github.com/user-attachments/assets/8e008854-4d5a-47e1-802b-8165c8938cc1" />
-<img width="1472" height="784" alt="Last" src="https://github.com/user-attachments/assets/a31dc6db-23b2-4f02-b132-398f958143f3" />
-
-
-## Future Improvements
-- Create Microsoft Sentinel analytics rules to automatically detect brute-force behavior
-- Generate incidents and alerts based on suspicious activity and known patterns
-- Apply post-incident hardening (restrict NSG rules, enable firewall, limit RDP access)
-
 ---
 Detailed explanation: [DETAILED-WALKTHROUGH.md](/DETAILED-WALKTHROUGH.md)
